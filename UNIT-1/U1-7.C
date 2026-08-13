@@ -15,13 +15,13 @@ void main()
 	scanf("%d",&z);
     
     if(x>y && x>z){
-        printf("Number 1 is largest");
+        printf("Number %d is largest",x);
     }
     else if(y>z && y>x){
-        printf("Number 2 is largest");
+        printf("Number %d is largest",y);
     }
     else{
-        printf("Number 3 is largest");
+        printf("Number %d is largest",z);
     }
     getch();
 
